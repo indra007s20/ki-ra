@@ -42,13 +42,7 @@ const speed = require('performance-now')
 * Jan numpang nama doank
 * Baca readme nya biar gk tanya tanya
 */
-const {
-    WAConnection,
-    MessageType,
-    Presence,
-    Mimetype,
-    GroupSettingChange
-} = require('@adiwajshing/baileys')
+
 /******BEGIN OF FILE INPUT******/
 const { color, bgcolor } = require('./lib/color')
 const { bahasa } = require('./src/bahasa')
