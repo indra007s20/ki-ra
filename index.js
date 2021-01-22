@@ -70,11 +70,11 @@ const { nsfwmenu } = require('./src/nsfwmenu')
 //const daftar = JSON.parse(fs.readFileSync('./src/daftar.json'))
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:PAINZINHO\n' // full name
-            + 'ORG:DONO DO BOT;\n' // the organization of the contact
+            + 'FN:painzinho\n' // full name
+            + 'ORG:owner bot;\n' // the organization of the contact
             + 'TEL;type=CELL;type=VOICE;waid=12542123926:+55 (11) 94954-5217\n' // WhatsApp ID + phone number
             + 'END:VCARD'
-prefix = '!'
+prefix = '*'
 blocked = []
 
 /******BEGIN OF FUNCTIONS INPUT******/
