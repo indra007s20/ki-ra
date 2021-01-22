@@ -1,4 +1,4 @@
-const toinmenu = (prefix, pushname) => {
+const painmenu = (prefix, pushname) => {
     return `◪ *Comandos do PAINZINHO*
     │
     ├─ ❏ ${prefix}prefixo
@@ -9,4 +9,4 @@ const toinmenu = (prefix, pushname) => {
 
 }
 
-exports.toinmenu = toinmenu
+exports. painmenu = painmenu
