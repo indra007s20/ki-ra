@@ -746,10 +746,10 @@ async function starts() {
 				case 'trendtwit':
 					client.updatePresence(from, Presence.composing) 
                                         /*if (!isDaftar) return reply(mess.only.daftarB)*/
-					data = await fetchJson(`'https://docs-jojo.herokuapp.com/api/trendingtwitter`, {method: 'get'})
+					data = await fetchJson(`https://docs-jojo.herokuapp.com/api/trendingtwitter`, {method: 'get'})
 					teks = '=================\n'
 					for (let i of data.result) {
-						teks += `*Hastag* : ${i.has.}\n*link* : ${i.link}\n*rank* : ${i.rank}\n*Tweet* : ${i.tweet}\n=================\n`
+						teks += `*Hastag* : ${i.hastag}\n*link* : ${i.link}\n*rank* : ${i.rank}\n*Tweet* : ${i.tweet}\n=================\n`
 					}
 					reply(teks.trim())
 					break
